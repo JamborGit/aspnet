@@ -12,6 +12,12 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+    <script src="Scripts/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            alert(1);
+        })
+    </script>
 </head>
 <body>
     <form runat="server">
@@ -33,7 +39,7 @@
             <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
             <asp:ScriptReference Name="WebFormsBundle" />
             <%--Site Scripts--%>
-
+            
         </Scripts>
     </asp:ScriptManager>
     <header>

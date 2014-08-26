@@ -20,6 +20,7 @@
     <h3>We suggest the following: Hello World!</h3>
     <ol class="round">
         <li class="one">
+            <textarea id="TextArea1" cols="20" rows="2">dfasfasdfasf</textarea>
             <h5>Getting Started</h5>
             ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
             A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
