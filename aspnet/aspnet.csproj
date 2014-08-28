@@ -209,11 +209,14 @@
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Samples\Download.aspx" />
     <Content Include="Samples\Gridview.aspx" />
+    <Content Include="Samples\Jquery\Facnybox.aspx" />
     <Content Include="Samples\Sas.aspx" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.24.js" />
     <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.fancybox.css" />
+    <Content Include="Scripts\jquery.fancybox.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
@@ -327,6 +330,13 @@
     </Compile>
     <Compile Include="Samples\Gridview.aspx.designer.cs">
       <DependentUpon>Gridview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Samples\Jquery\Facnybox.aspx.cs">
+      <DependentUpon>Facnybox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Samples\Jquery\Facnybox.aspx.designer.cs">
+      <DependentUpon>Facnybox.aspx</DependentUpon>
     </Compile>
     <Compile Include="Samples\Sas.aspx.cs">
       <DependentUpon>Sas.aspx</DependentUpon>
