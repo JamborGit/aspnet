@@ -13,7 +13,7 @@ namespace ReadSas
     {
         static void Main(string[] args)
         {
-            string sas = "https://jamborstorage.blob.core.windows.net/sascontainer?sv=2014-02-14&sr=c&sig=E19ShpOtv4pv9VyROf%2BBxXNGVpcbCJl5VBBByAD6d14%3D&se=2014-08-26T09%3A54%3A27Z&sp=wl";
+            string sas = "https://jamborstorage.blob.core.windows.net/sascontainer?sv=2014-02-14&sr=c&sig=HaD3DPQYd%2FQMJnuvYRafx0NuQQWSm0ZelODLxbyjEWI%3D&se=2014-09-03T09%3A43%3A28Z&sp=wl";
             CloudBlobContainer container = new CloudBlobContainer(new Uri(sas));
 
             //Create a list to store blob URIs returned by a listing operation on the container.

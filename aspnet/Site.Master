@@ -14,9 +14,7 @@
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
     <script src="Scripts/jquery-1.8.2.min.js"></script>
     <script type="text/javascript">
-        $(function () {
-            alert(1);
-        })
+    
     </script>
 </head>
 <body>
