@@ -17,7 +17,7 @@
     </section>
 </asp:Content>
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
-    <h3>We suggest the following: Hello World!</h3>
+    <h3>We suggest the following: Hello World!         <asp:SiteMapPath ID="SiteMapPath1" runat="server"  ></asp:SiteMapPath></h3>
     <ol class="round">
         <li class="one">
             <textarea id="TextArea1" cols="20" rows="2">dfasfasdfasf</textarea>

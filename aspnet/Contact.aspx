@@ -5,7 +5,7 @@
         <h1><%: Title %>.</h1>
         <h2>Your contact page.</h2>
     </hgroup>
-
+       <asp:SiteMapPath ID="SiteMapPath1" runat="server"  ></asp:SiteMapPath>
     <section class="contact">
         <header>
             <h3>Phone:</h3>
